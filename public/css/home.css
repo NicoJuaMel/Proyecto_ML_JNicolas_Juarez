@@ -1,0 +1,351 @@
+* {
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+/* ----------------HEADER----------------- */
+
+header{
+    background-color:#EAC926;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.upperheader{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.logo{
+    width: 40vw;
+}
+
+/*------------- HEADER - SEARCHBAR ----------------------------*/
+
+.searchbar{
+    background-color: white;
+    width: 40%;
+    font-size: 10px;
+    display:flex;
+    padding: 6px;
+    border-radius: 6px;
+    margin: auto;
+    color:#666;
+}
+
+.searchbar i{
+    font-size: 16px;
+    color:#666;
+}
+
+.searchtext{
+    width:90%;
+    font-size: 10px;
+    border:none;
+}
+
+/*------------ HEATER - NAVBAR LOGINBAR BURGERMENU-------------------------------*/
+
+.compraencuotas{
+    text-align: center;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.bottomheader{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar{
+    display:none;
+}
+
+.loginbar{
+    display:none;
+}
+
+.burger-menu{
+    text-align: center;
+    background-color: rgb(33, 33, 122);
+    color: white;
+    max-width: 40px;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 8px;
+    margin: auto;
+}
+.banner{
+    width: 100vw;
+}
+
+/*---------------------- BODY ---------------------------------*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    margin: 0px;
+}
+main{
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 25px;
+}
+
+.seccionmain{
+    width: 90vw;
+}
+
+/*-------------------- MAIN - ARTICULOS ------------------------------*/
+
+.articulo{
+    width: 90vw;
+    margin: 20px 0px;
+    background-color: white;
+}
+
+.imagenarticulo{
+    width:90vw;
+    margin:auto;
+}
+
+.cajadearticulo{
+    padding:15px;
+    border-top: solid 1px #ebebeb;
+    background-color: white;
+    Position: relative;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cajadearticulo:hover{
+    box-shadow : 0px 0px 10px rgb(100 , 100 , 100);
+}
+
+main section article i{
+    display: block ;
+    font-size: 16px ;
+    padding: 5px ;
+    width: 30px ;
+    height: 30px ;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50% ;
+    position: absolute ;
+    right: 10%;
+    top: -15px ;
+}
+
+.titulares{
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:#666;
+}
+.precio{
+    font-size: 18px;
+    width: 30%;
+    text-align: left;
+}
+
+.descuento{
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+    text-align: center;
+}
+
+.descripcion{
+    display: none;
+    width: 100%;
+}
+
+.cajadearticulo:hover > .descripcion{
+    font-size: 16px;
+    width: 100%;
+    display: block;
+}
+
+
+
+/* ---------------------- FOOTER ----------------------------*/
+
+footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: white;
+    padding: 15px;
+    }
+
+.iconopie{
+    font-size: 2em;
+    color:blue;
+    margin-bottom: 10px;
+}
+
+
+/* ----------------------- MEDIAQUERIES TABLET & DESKTOP ----------------------*/
+
+@media (min-width:361px){
+    header a{
+        text-decoration: none;
+    }
+    /*-------------------------------------------
+    .descripcion{
+        display: block;
+    }
+    ---------------------------------------------------------*/
+
+    .listadearticulos{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .imagenarticulo{
+        width: 40vw;
+    }
+
+    .articulo{
+        box-shadow : 0px 0px 10px rgb(100 , 100 , 100);
+        width: 40vw;
+    }
+    .upperheader{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo{
+        width:30%;
+    }
+
+    .searchbar{
+        width:30%;
+        display:flex;
+    }
+    
+    .searchtext{
+        width:90%;
+        font-size: 12px;
+    }
+
+    .compraencuotas{
+        width:30%;
+    }
+
+    .bottomheader{
+        font-size: 1.8vw;
+    }
+
+    header ul{
+        display: flex;
+        list-style-type: none;
+        margin: 0px;
+    }
+
+    .bottomheader li{
+        margin: 0 2px;
+    }
+
+    .navbar{
+        display:flex;
+        text-decoration: none;
+        width: 50vw;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .navbar a{
+        text-decoration: none;
+        color:black;
+    }
+
+    .loginbar{
+        display:flex;
+        text-decoration: none;
+        width: 50vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .loginbar a{
+        text-decoration: none;
+        color:black;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .precio{
+        font-size: 3.2vw;
+        width: 30%;
+        text-align: left;
+    }
+    
+    .descuento{
+        font-size: 3vw;
+        color: #39b54a;
+        width: 70%;
+        text-align: center;
+    }
+
+    
+}
+
+
+@media (min-width: 769px){
+    .imagenarticulo{
+        width: 20vw;
+    }
+
+    .articulo{
+        box-shadow : 0px 0px 10px rgb(100 , 100 , 100);
+        width: 20vw;
+    }
+    .bottomheader{
+        font-size: 1.5vw;
+    }
+    .footerdesktop{
+        display:flex;
+        justify-content: space-around;
+        font-size: 1.1vw;
+    }
+    .copyright{
+        text-align: start;
+        margin:15px 0px;
+    }
+    .precio{
+        font-size: 1.8vw;
+        width: 30%;
+        text-align: left;
+    }
+    
+    .descuento{
+        font-size: 1.6vw;
+        color: #39b54a;
+        width: 70%;
+        text-align: center;
+    }
+
+    .iconopie:hover{
+        color:#EAC926;
+    }
+}

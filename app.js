@@ -3,7 +3,7 @@ const path = require("path");
 const app = express();
 app.use(express.static(path.resolve(__dirname,"./public")));
 
-app.listen(process.env.PORT||3050, function(){
+app.listen(process.env.PORT||3000, function(){
     console.log("Ok Server start http://localhost:3050");
 })
 

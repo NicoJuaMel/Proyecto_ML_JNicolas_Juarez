@@ -8,7 +8,7 @@
 header{
     background-color:#EAC926;
     font-family: 'Roboto', sans-serif;
-    padding: 20px;
+    padding: 5px;
 }
 
 .upperheader{
@@ -18,18 +18,18 @@ header{
     justify-content: space-around;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .logo{
-    width: 40vw;
+    width: 35vw;
 }
 
 /*------------- HEADER - SEARCHBAR ----------------------------*/
 
 .searchbar{
     background-color: white;
-    width: 40%;
+    width: 45vw;
     font-size: 10px;
     display:flex;
     padding: 6px;
@@ -248,6 +248,7 @@ footer{
 
     .compraencuotas{
         width:30%;
+        font-size: 1.5vw;
     }
 
     .bottomheader{

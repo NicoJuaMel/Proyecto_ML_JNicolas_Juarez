@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "clear && nodemon app.js -e css,html,js,mjs",
+    "test": "clear && nodemon app.js -e css,html,js,mjs,json",
     "start": "node app.js"
   },
   "keywords": [],

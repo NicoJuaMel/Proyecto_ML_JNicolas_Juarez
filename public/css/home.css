@@ -126,6 +126,7 @@ main{
     flex-direction:row;
     flex-wrap: wrap;
     align-items: center;
+    transition: 450ms;
 }
 
 .cajadearticulo:hover{

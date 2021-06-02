@@ -120,7 +120,6 @@ main{
 .cajadearticulo{
     padding:15px;
     border-top: solid 1px #ebebeb;
-    background-color: white;
     Position: relative;
     display:flex;
     flex-direction:row;
@@ -150,7 +149,7 @@ main section article i{
 
 .titulares{
     font-size: 24px;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 15px;
     color:#666;
 }
@@ -324,6 +323,13 @@ footer{
     .articulo{
         box-shadow : 0px 0px 10px rgb(100 , 100 , 100);
         width: 20vw;
+    }
+
+    .ultimavisita{
+        height: 440px;
+    }
+    .ofertas{
+        height: 440px;
     }
     .bottomheader{
         font-size: 1.5vw;

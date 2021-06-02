@@ -126,6 +126,7 @@ main{
     flex-wrap: wrap;
     align-items: center;
     transition: 450ms;
+    background-color: white;
 }
 
 .cajadearticulo:hover{

@@ -120,9 +120,9 @@ main{
 
 /*------------------- BOTONES -----------------------------*/
 
-.enviar{
+.boton{
     margin: 20px 0px;
-    width: 90;
+    width: 90vw;
     padding: 12px;
     border-radius: 6px;
     background-color: #1259c3;
@@ -131,8 +131,13 @@ main{
     text-decoration: none;
     }
 
-.enviar:hover{
+.boton:hover{
     background-color: #0022AA;
+}
+
+main form input:valid,
+textarea:valid {
+    border:2px solid rgb(0, 182, 0);
 }
 
 /*---------------------------FOOTER --------------------*/

@@ -113,8 +113,7 @@ main{
 }
 
 .imagenarticulo{
-    width:90vw;
-    margin:auto;
+    width:100%;
 }
 
 .cajadearticulo{
@@ -318,7 +317,7 @@ footer{
 
 @media (min-width: 769px){
     .imagenarticulo{
-        width: 20vw;
+        width: 100%;
     }
 
     .articulo{
@@ -326,12 +325,6 @@ footer{
         width: 20vw;
     }
 
-    .ultimavisita{
-        height: 440px;
-    }
-    .ofertas{
-        height: 440px;
-    }
     .bottomheader{
         font-size: 1.5vw;
     }

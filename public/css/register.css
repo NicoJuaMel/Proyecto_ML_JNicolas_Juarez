@@ -135,6 +135,12 @@ main{
     max-width:90vw;
 }
 
+main form input:valid,
+textarea:valid {
+    border:2px solid rgb(0, 182, 0);
+}
+
+
 /*------------------- BOTONES -----------------------------*/
 
 .boton{
@@ -148,9 +154,8 @@ main{
     align-items: center;
     }
 
-.formularioregistro a{
-    color:white;
-    text-decoration: none;
+.boton:hover{
+    background-color: #0022AA;
 }
 
 /*---------------------------FOOTER --------------------*/

@@ -53,27 +53,13 @@
 
     <main>
         <form action="/" method="GET" class="formularioregistro">
-            <div>
-                <input type="text" name="nombreyapellido" id="nombreyapellido" placeholder="Nombre y Apellido" class="camporegistro" required>
-            </div>
             
-            <div>
-                <input type="text" name="username" id="username" placeholder="Nombre de Usuari@" minlenght="8" maxlength="16" class="camporegistro">
-            </div>  
-
-            <div>
-                <input type="email" name="email" id="email" placeholder="E-mail" class="camporegistro" required>
-            </div>
-            
-            <div>
+            <input type="text" name="nombreyapellido" id="nombreyapellido" placeholder="Nombre y Apellido" class="camporegistro" required/>
+            <input type="text" name="username" id="username" placeholder="Nombre de Usuari@" class="camporegistro" minlenght="8" required/>
+            <input type="email" name="email" id="email" placeholder="E-mail" class="camporegistro" required>
             <h3>Fecha de nacimiento</h3>
-                <input type="date" name="birthdate" id="birthdate" class="camporegistro" class="birthdate" required>
-            </div>
-            
-            <div>
-                <input type="text" name="address" id="address" placeholder="Domicilio" class="camporegistro" required>
-            </div>
-
+            <input type="date" name="birthdate" id="birthdate" class="camporegistro" class="birthdate" required>
+            <input type="text" name="address" id="address" placeholder="Domicilio" class="camporegistro" required>
             <h3 class="tituloformulario">Perfil de usuario</h3>
             <div class="tipodeusuario">
                 <div>
@@ -109,25 +95,14 @@
                 <label>Vida sana</label>
                 </div>
       
-            <div>
+        
             <h3 class="tituloformulario">Foto de usuario</h3>
             <input type="file" name="fotousuario" accept=".jpg" class="fotousuario" required>
-            </div>
-            
-            <div>
-                <input type="password" name="password" id="password" placeholder="Contraseña" class="camporegistro" required>
-            </div>    
-                
-            <div>
-                <input type="password" name="passwordok" id="passwordok" placeholder="Confirmar contraseña" class="camporegistro" required>
-            </div>
-
-            <div>
-                <button type="submit" class="boton">Enviar</button>
-            </div>
-            <div>
-                <button type="reset" class="boton">Cancelar</button>
-            </div>
+            <input type="password" name="password" id="password" placeholder="Contraseña" class="camporegistro" minlength="8" required>
+            <input type="password" name="passwordok" id="passwordok" placeholder="Confirmar contraseña" class="camporegistro" minlength="8" required>
+            <button type="submit" class="boton">Enviar</button>
+            <button type="reset" class="boton">Cancelar</button>
+        
         </form>
 
 
